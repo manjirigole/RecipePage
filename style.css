@@ -1,0 +1,152 @@
+body{
+    background-color: hsl(30, 54%, 90%);
+}
+.card{
+    background-color: hsl(0, 0%, 100%);
+    width:650px;
+    margin-top: 70px;
+    border-radius: 10px;
+    margin-bottom: 70px;
+    height: 1820px;
+}
+.image-omelette{
+    width: 550px;
+    height: 300px;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+.title{
+    text-align: left;
+    color: hsl(24, 5%, 18%);
+    margin-left: 60px;
+    font-family: 'Young Serif', sans-serif;
+    font-weight: 400;
+}
+.recipe-desc{
+    width: 550px;
+    font-family: 'Outfit', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+.prep-card{
+    background-color: hsl(330, 100%, 98%);
+    width: 550px;
+    font-family: 'Outfit', sans-serif;
+    text-align: left;
+    padding: 20px;
+    border-radius: 10px;
+}
+.prep-card h3{
+    color: hsl(332, 51%, 32%);
+}
+.prep-card b{
+    color:hsl(24, 5%, 18%);
+    margin-right: 5px;
+}
+.prep-card li{
+    margin-bottom: 10px;
+}
+ul.prep-list li::marker{
+    color: hsl(332, 51%, 32%);
+    padding-left: 10px;
+}
+.ingridients-card{
+    text-align: left;
+    margin-left: 60px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid hsl(30, 18%, 87%);
+}
+.ingridients-card h1{
+    color: hsl(14, 45%, 36%);
+}
+.ingridients-card li{
+    font-family: 'Outfit',sans-serif;
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+ul.ingridients-list li::marker{
+    color: hsl(14, 45%, 36%);
+}
+.instructions-card{
+    text-align: left;
+}
+.instructions-card h1{
+    font-family: 'Young Serif', sans-serif;
+    font-weight: 400;
+    color: hsl(14, 45%, 36%);
+    margin-left: 10px;
+}
+.instructions-card{
+    width:550px;
+    font-family: 'Outfit',sans-serif;
+    font-weight: 400;
+    border-bottom: 2px solid hsl(30, 18%, 87%);
+    padding-bottom: 20px;
+}
+.instructions-list li{
+    margin-bottom: 20px;
+}
+.instructions-list b{
+    color:hsl(24, 5%, 18%);
+}
+ol.instructions-list li::marker{
+    color: hsl(14, 45%, 36%);
+    font-weight: 700;
+}
+.nutrition-card{
+    width: 550px;
+    font-family: 'Outfit',sans-serif;
+}
+.nutrition-card h1{
+    text-align: left;
+    font-weight: 400;
+    margin-left: 15px;
+    color:hsl(14, 45%, 36%);
+    font-family: 'Young Serif', sans-serif;
+}
+.nutrition-card p{
+    font-family: 'Outfit', sans-serif;
+    font-size: 15px;
+}
+.nutrition-container{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-bottom: 40px;
+}
+.nutrition-col1{
+    display: grid;
+    grid-template-rows: auto auto auto;
+    padding-bottom: 10px;
+    align-items: center;
+}
+.nutrition-row1, .nutrition-row4{
+    border-top: 2px solid hsl(30, 18%, 87%);
+}
+.nutrition-row1, .nutrition-row2, .nutrition-row3{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    border-bottom: 2px solid hsl(30, 18%, 87%);
+    margin-top: 10px; 
+    margin-bottom: 10px;
+    padding: 5px;
+    
+}
+.nutrition-col2{
+    display: grid;
+    grid-template-rows: auto auto auto;
+    padding-bottom: 10px;
+    align-items: center;
+    color:hsl(14, 45%, 36%);
+    font-weight: 700;
+}
+.nutrition-row4, .nutrition-row5, .nutrition-row6{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    border-bottom: 2px solid hsl(30, 18%, 87%);
+    margin-top: 10px; 
+    margin-bottom: 10px;
+    padding: 5px; 
+}
