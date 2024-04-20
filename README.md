@@ -23,7 +23,7 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 ### Links
 
 - Solution URL: https://www.frontendmentor.io/solutions/responsive-landing-page-with-basic-css-vbrw0Q0jA2
-- Live Site URL: 
+- Live Site URL: https://manjirigole.github.io/RecipePage/
 
 ## My process
 
